@@ -32,5 +32,6 @@ public class DataConfiguration {
         adapter.setDatabasePlatform("org.hibernate.dialect.MySQLDialect");
         adapter.setPrepareConnection(true);
         return adapter;
+
     }
 }
