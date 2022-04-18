@@ -16,7 +16,8 @@ public class Convidado {
     @Id
     @NotEmpty
     private String rg;
-    NotEmpty
+
+    @NotEmpty
     private String nomeConvidado;
 
     @ManyToOne
